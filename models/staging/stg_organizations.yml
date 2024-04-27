@@ -1,0 +1,9 @@
+models:
+  - name: stg_organizations
+    description: ''
+    columns:
+      - name: organization_id
+        description: ''
+        tests:
+          - not_null
+          - unique
